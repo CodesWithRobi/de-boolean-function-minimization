@@ -35,6 +35,7 @@ Hardware – PCs, Cyclone II , USB flasher
 
 Developed by: RegisterNumber:212223040170
 
+```
 //Program to compute the function f1=a'b'c'd'+ac'd'+b'cd'+a'bcd+bc'd
 //f2=xy'z+x'y'z+w'xy+wx'y+wxy
 // simplify the logic using Boolean minimization/k map 
@@ -58,15 +59,16 @@ and(t, w, y);
 and(u, x, y);
 or(f2, s, t, u);
 endmodule
+```
 
 **RTL realization**
 
-![rtl]("Boolean_min.jpg") 
+![rtl](Boolean_min.jpg) 
 
 **Output:**
 
-![f1]("f1.png")
-![f2]("f2.png")
+![f1](f1.png)
+![f2](f2.png)
 
 **Timing Diagram**
 
