@@ -18,7 +18,7 @@
 // the top level entity of the current Quartus project .The user can use this   
 // testbench to simulate his design using a third-party simulation tool .       
 // *****************************************************************************
-// Generated on "01/09/2024 00:10:15"
+// Generated on "03/25/2024 08:02:39"
                                                                         
 // Verilog Self-Checking Test Bench (with test vectors) for design :    Boolean_min
 // 
@@ -181,7 +181,7 @@ initial
 
 begin 
 $timeformat(-12,3," ps",6);
-#200000;
+#160000;
 if (nummismatches > 0)
 	$display ("%d mismatched vectors : Simulation failed !",nummismatches);
 else
@@ -226,68 +226,100 @@ Boolean_min i1 (
 initial
 begin
 	a = 1'b0;
+	a = #10000 1'b1;
+	a = #10000 1'b0;
+	a = #10000 1'b1;
+	a = #10000 1'b0;
+	a = #10000 1'b1;
+	a = #10000 1'b0;
+	a = #10000 1'b1;
+	a = #10000 1'b0;
+	a = #10000 1'b1;
+	a = #10000 1'b0;
+	a = #10000 1'b1;
+	a = #10000 1'b0;
+	a = #10000 1'b1;
+	a = #10000 1'b0;
+	a = #10000 1'b1;
 end 
 
 // b
 initial
 begin
 	b = 1'b0;
-	b = #120000 1'b1;
-	b = #60000 1'b0;
+	b = #20000 1'b1;
+	b = #20000 1'b0;
+	b = #20000 1'b1;
+	b = #20000 1'b0;
+	b = #20000 1'b1;
+	b = #20000 1'b0;
+	b = #20000 1'b1;
 end 
 
 // c
 initial
 begin
 	c = 1'b0;
-	c = #60000 1'b1;
-	c = #60000 1'b0;
+	c = #40000 1'b1;
+	c = #40000 1'b0;
+	c = #40000 1'b1;
 end 
 
 // d
 initial
 begin
 	d = 1'b0;
-	d = #30000 1'b1;
-	d = #30000 1'b0;
-	d = #30000 1'b1;
-	d = #30000 1'b0;
-	d = #30000 1'b1;
-	d = #30000 1'b0;
+	d = #80000 1'b1;
 end 
 
 // w
 initial
 begin
 	w = 1'b0;
+	w = #10000 1'b1;
+	w = #10000 1'b0;
+	w = #10000 1'b1;
+	w = #10000 1'b0;
+	w = #10000 1'b1;
+	w = #10000 1'b0;
+	w = #10000 1'b1;
+	w = #10000 1'b0;
+	w = #10000 1'b1;
+	w = #10000 1'b0;
+	w = #10000 1'b1;
+	w = #10000 1'b0;
+	w = #10000 1'b1;
+	w = #10000 1'b0;
+	w = #10000 1'b1;
 end 
 
 // x
 initial
 begin
 	x = 1'b0;
-	x = #120000 1'b1;
-	x = #60000 1'b0;
+	x = #20000 1'b1;
+	x = #20000 1'b0;
+	x = #20000 1'b1;
+	x = #20000 1'b0;
+	x = #20000 1'b1;
+	x = #20000 1'b0;
+	x = #20000 1'b1;
 end 
 
 // y
 initial
 begin
 	y = 1'b0;
-	y = #60000 1'b1;
-	y = #60000 1'b0;
+	y = #40000 1'b1;
+	y = #40000 1'b0;
+	y = #40000 1'b1;
 end 
 
 // z
 initial
 begin
 	z = 1'b0;
-	z = #30000 1'b1;
-	z = #30000 1'b0;
-	z = #30000 1'b1;
-	z = #30000 1'b0;
-	z = #30000 1'b1;
-	z = #30000 1'b0;
+	z = #80000 1'b1;
 end 
 
 Boolean_min_vlg_sample_tst tb_sample (

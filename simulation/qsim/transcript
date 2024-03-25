@@ -1,4 +1,6 @@
 # do Boolean_min.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module Boolean_min
 # 
@@ -18,4 +20,4 @@
 # Loading work.Boolean_min_vlg_check_tst
 # Simulation passed !
 # ** Note: $finish    : Boolean_min.vt(189)
-#    Time: 200 ns  Iteration: 0  Instance: /Boolean_min_vlg_vec_tst/tb_out
+#    Time: 160 ns  Iteration: 0  Instance: /Boolean_min_vlg_vec_tst/tb_out

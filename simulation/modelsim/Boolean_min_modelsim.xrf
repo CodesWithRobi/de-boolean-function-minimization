@@ -1,6 +1,7 @@
 vendor_name = ModelSim
 source_file = 1, X:/SAVEETHA/S2/DE/de-boolean-function-minimization/Boolean_min.v
 source_file = 1, X:/SAVEETHA/S2/DE/de-boolean-function-minimization/Waveform2.vwf
+source_file = 1, X:/SAVEETHA/S2/DE/de-boolean-function-minimization/Waveform.vwf
 source_file = 1, X:/SAVEETHA/S2/DE/de-boolean-function-minimization/db/Boolean_min.cbx.xml
 design_name = Boolean_min
 instance = comp, \f1~output , f1~output, Boolean_min, 1
