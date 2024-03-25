@@ -67,10 +67,12 @@ endmodule
 
 **Output:**
 
-![f1](f1.png)
-![f2](f2.png)
+![waveform](waveform.png)
 
 **Timing Diagram**
+
+![f1](f1.png)
+![f2](f2.png)
 
 **Result:**
 
